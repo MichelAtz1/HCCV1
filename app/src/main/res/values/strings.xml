@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">AppMercado</string>
+    <string name="title_activity_principal_menu">PrincipalMenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lista_ofertas">ListaOfertas</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_locacoes">Locacoes</string>
+    <string name="title_activity_inseri_poste">InseriPoste</string>
+    <string name="title_activity_cadastra_extrutura">CadastraExtrutura</string>
+    <string name="title_activity_consumidor_equipamento">ConsumidorEquipamento</string>
+    <string name="title_activity_adiciona_consumidores">AdicionaConsumidores</string>
+    <string name="title_activity_localizacao">Localizacao</string>
+    <string name="title_activity_inseri_imagem">InseriImagem</string>
+    <string name="title_activity_inseri_imagem_documento">InseriImagemDocumento</string>
+    <string name="title_activity_lista_coordenadas">ListaCoordenadas</string>
+    <string name="title_activity_lacacacoes_finalizadas">LacacacoesFinalizadas</string>
+
+    <string name="txt_email">E-mail:</string>
+    <string name="txt_senha">Senha:</string>
+    <string name="txt_link">Cadastre-se no Aplicativo</string>
+    <string name="txt_numero_nota">Numero da Nota:</string>
+    <string name="txt_cliente">Cliente:</string>
+    <string name="txt_lado_consumidor">Lado do Consumidor:</string>
+    <string name="txt_direita">Direita</string>
+    <string name="txt_esquerda">Esquerda</string>
+    <string name="txt_ramal">Ramal:</string>
+    <string name="txt_D10">D10</string>
+    <string name="txt_W01">W01</string>
+    <string name="txt_S03">S03</string>
+    <string name="txt_W02">W02</string>
+    <string name="txt_AF">AF</string>
+    <string name="txt_W031">W03 (10mm)</string>
+    <string name="txt_W032">W03 (16mm)</string>
+    <string name="txt_W033">W03 (25mm)</string>
+    <string name="txt_Q10">Q10</string>
+    <string name="txt_Q25">Q25</string>
+    <string name="txt_Q35">Q35</string>
+    <string name="txt_tipo_estrutura">Tipo de Estrutura:</string>
+    <string name="txt_primaria">Primária</string>
+    <string name="txt_secundaria">Secundária</string>
+    <string name="txt_descricao">Descrição:</string>
+    <string name="txt_consumid">Consumidores:</string>
+    <string name="txt_cadastro_equipamento">Cadastro Equipamento:</string>
+    <string name="txt_tipo_equipamento">Tipo Equipamento:</string>
+    <string name="txt_numero_placa">Numero da placa:</string>
+    <string name="txt_tipo_arquivo">Tipo de Arquivo:</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_tipo_poste">Tipo Poste:</string>
+    <string name="txt_altura">Altura:</string>
+    <string name="txt_8">8</string>
+    <string name="txt_14">14</string>
+    <string name="txt_9">9</string>
+    <string name="txt_15">15</string>
+    <string name="txt_10">10</string>
+    <string name="txt_16">16</string>
+    <string name="txt_11">11</string>
+    <string name="txt_17">17</string>
+    <string name="txt_12">12</string>
+    <string name="txt_18">18</string>
+    <string name="txt_13">13</string>
+    <string name="txt_capacidade">Capacidade:</string>
+    <string name="txt_vida_util">Fim da Vida Útil?</string>
+    <string name="txt_Sim">Sim</string>
+    <string name="txt_nao">Não</string>
+    <string name="txt_estrutura">Estruturas:</string>
+    <string name="txt_iluminacao_publica">Iluminação publica?</string>
+    <string name="txt_telefonia">Telefonia:</string>
+    <string name="txt_estai">Estai/Escora/BC:</string>
+    <string name="txt_TL">TL</string>
+    <string name="txt_NET">NET</string>
+    <string name="txt_FO">FO</string>
+    <string name="txt_acesso">Acesso</string>
+    <string name="txt_lavoura">1 - Lavoura</string>
+    <string name="txt_campo">2 - Campo</string>
+    <string name="txt_estrada">3 - Estrada</string>
+    <string name="txt_patio">4 - Pátio</string>
+    <string name="txt_rua">5 - Rua</string>
+    <string name="txt_calcada">6 - Calçada</string>
+    <string name="txt_mato">7 - Mato</string>
+    <string name="txt_sem_acesso">8 -  Sem acesso</string>
+    <string name="txt_tipo_solo">Tipo do Solo:</string>
+    <string name="txt_escavacao">A - Fácil Escavação</string>
+    <string name="txt_pequenos_pedregulhos">B - Pequenos Pedregulhos</string>
+    <string name="txt_rochoso">C - Solo Rochoso</string>
+    <string name="txt_nota">Nota:</string>
+    <string name="txt_cliente2">Cliente:</string>
+    <string name="txt_espaco">  </string>
+    <string name="txt_poste">Postes:</string>
+    <string name="txt_documentos">Documentos:</string>
+    <string name="txt_fotos">Fotos:</string>
+    <string name="txt_boas_vindas">Bem Vindo!</string>
+    <string name="txt_resumo"> Este aplicativo foi desenvolvido pela HCC - Engenharia Elétrica e tem por objetivo coletar dados topográficos. \n</string>
+    <string name="txt_nome_documento">Nome do documento</string>
+    <string name="txt_poste_numero">Poste numero</string>
+    <string name="txt_cliente_lista">Cliente</string>
+    <string name="txt_codigo_lista">Codigo</string>
+    <string name="txt_data_lista">Data</string>
+    <string name="txt_aplicativo_hcc">Aplicativo HCC</string>
+    <string name="txt_email_coelba">hcc.coelba@gmail.com</string>
+    <string name="txt_sair">Sair</string>
+    <string name="txt_locacao_finalizadas">Locações Finalizadas</string>
+    <string name="txt_locacao_aberta">Locações</string>
+
+    <string name="bt_entrar">Entrar</string>
+    <string name="bt_salvar">Salvar</string>
+    <string name="bt_add">+</string>
+    <string name="bt_editar">Editar</string>
+    <string name="bt_proximo">Próximo</string>
+    <string name="bt_tirar_foto">Tirar Foto</string>
+    <string name="bt_finalizar">Finalizar</string>
+
+    <string name="hint_email">Insira seu E-mail</string>
+    <string name="hint_senha">Insira sua Senha</string>
+    <string name="hint_numero_nota">Insira sua Senha</string>
+    <string name="hint_cliente">Digite o Nome do cliente</string>
+    <string name="hint_descricao">Insira descrição</string>
+    <string name="hint_numero_placa">Digite o numero da placa</string>
+    <string name="hint_nome">Insira seu nome</string>
+    <string name="hint_digite_aqui">Digite aqui</string>
+
+    <string name="descricao_icon_inicial">Boneco da Android, segurando o logo tipo da Hcc, como se fosse uma bola de futebol</string>
+    <string name="descricao_imagem_camera">Imagem de uma camera fotográfico, aqui irá a foto tirada</string>
+    <string name="descricao_logo_tipo">Logo-Tipo da HCC</string>
+    <string name="descricao_texto">HCC Engenharia Elétrica</string>
+    <string name="descricao_edicao">Desenho de um lapis, clique aqui para editar</string>
+    <string name="descricao_exclusao">Desenho de uma lixeira, clique aqui para excluir</string>
+
+</resources>

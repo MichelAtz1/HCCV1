@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_locacoes"
+            android:icon="@drawable/ic_planilha_black_24dp"
+            android:title="@string/txt_locacao_aberta" />
+        <item
+            android:id="@+id/nav_locacoesfinalizadas"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/txt_locacao_finalizadas" />
+
+    </group>
+
+    <item android:title="@string/txt_espaco">
+        <menu>
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_sair_app_black_24dp"
+                android:title="@string/txt_sair" />
+        </menu>
+    </item>
+</menu>

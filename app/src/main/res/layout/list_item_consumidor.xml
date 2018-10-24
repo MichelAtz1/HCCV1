@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewConversas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:contentPadding="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="@string/txt_nome_documento"
+                        android:textSize="17sp"
+                        android:layout_marginLeft="2dp"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/txtMensagem"
+                        android:background="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:text="@string/txt_espaco"
+                        android:background="#FFFFFF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnEditar5"
+                android:layout_gravity="left"
+                android:layout_marginRight="30dp"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/icon_editar_pequeno"
+                android:gravity="left"
+                android:onClick="editaItem"
+                android:contentDescription="@string/descricao_edicao" />
+
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnDelete5"
+                android:layout_gravity="right"
+                android:background="#FFFFFF"
+                app:srcCompat="@drawable/ic_delete"
+                android:gravity="left"
+                android:onClick="deletaItem"
+                android:contentDescription="@string/descricao_exclusao" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
